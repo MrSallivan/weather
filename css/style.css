@@ -4,58 +4,142 @@
 .flex-center{
 	display: flex;
 	align-items: center;
-	justify-content: center;
-	gap: 20px;
+	justify-content: space-between;
+	gap: 30px;
 }
 
-.flex-center {
-}
+
 .logo {
 }
 .form-search {
+	width: 100%;
+	max-width: 850px;
 }
+
 .search-label {
+	position: relative;
+	width: 100%;
+	max-width: 800px;
+	height: 44px;
 }
 .search-input {
+	width: 100%;
+	height: 100%;
+	border: 1px solid #E6E6E6;
+	border-radius: 22px;
+	padding-left: 20px;
+	padding-right: 35px;
 }
 .search-submit {
+	width: 22px;
+	height: 22px;
+	position: absolute;
+	border: none;
+	right: 20px;
+	top: 50%;
+	background-color: transparent;
+	transform: translateY(-50%);
 }
 .js-choice {
 }
 .title-wrapper {
+	border-top: 1px solid #E6E6E6;
+	border-bottom: 1px solid #E6E6E6;
+	padding: 20px 0;
 }
 
 .title {
+	font-weight: 700;
+	font-size: 26px;
 }
 .news {
+	padding-top: 40px;
+	padding-bottom: 50px;
 }
 .news-list {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, 270px);
+	justify-content: space-evenly;
+	gap: 40px 20px;
+}
+.news-image{
+	width: 100%;
+	height: 270px;
+	margin-bottom: 10px;
+	object-fit: cover;
 }
 .news-item {
+	display: flex;
+	flex-direction: column;
 }
 .news-title {
 }
+
 .news-link {
+	display: block;
+	font-weight: 700;
+	font-size: 16px;
+	margin-bottom: 10px;
+	background-image: url(../image/arrow.svg);
+	background-repeat: no-repeat;
+	background-position: top right;
+	padding-right: 30px;
+	transition: color 0.3s ease-in-out;
+}
+.news-link:hover{
+	color: #09E079;
 }
 .news-description {
+	font-size: 12px;
+	margin-bottom: 10px;
 }
 .news-footer {
+	display: flex;
+	justify-content: space-between;
+	margin-top: auto;
+	font-size: 10px;
+	color: #8E8E8E;
 }
 .news-datetime {
+	display: flex;
+}
+.news-date{
+	margin-right: 12px;
+	display: block;
 }
 .news-author {
 }
 .footer {
+	padding: 22px 0;
 }
 .footer__container {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
 }
 .footer-logo {
+	justify-self: start;
+	align-self: center;
 }
 .copyraght {
+	justify-self: center;
+	align-self: end;
+	font-size: 12px;
 }
 .social-list {
+	display: flex;
+	align-items: center;
+	gap: 15px;
+	align-self: center;
+	justify-self: end;
 }
 .social-item {
 }
 .social-link {
+	display: block;
+	width: 30px;
+	height: 30px;
+	color: #09E079;
+}
+.social-link:hover {
+	color: #8E8E8E;
 }
