@@ -8,9 +8,6 @@
 	gap: 30px;
 }
 
-
-.logo {
-}
 .form-search {
 	width: 100%;
 	max-width: 850px;
@@ -40,8 +37,7 @@
 	background-color: transparent;
 	transform: translateY(-50%);
 }
-.js-choice {
-}
+
 .title-wrapper {
 	border-top: 1px solid #E6E6E6;
 	border-bottom: 1px solid #E6E6E6;
@@ -71,8 +67,6 @@
 .news-item {
 	display: flex;
 	flex-direction: column;
-}
-.news-title {
 }
 
 .news-link {
@@ -107,8 +101,7 @@
 	margin-right: 12px;
 	display: block;
 }
-.news-author {
-}
+
 .footer {
 	padding: 22px 0;
 }
@@ -132,8 +125,7 @@
 	align-self: center;
 	justify-self: end;
 }
-.social-item {
-}
+
 .social-link {
 	display: block;
 	width: 30px;
