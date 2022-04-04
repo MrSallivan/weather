@@ -1,0 +1,61 @@
+.header {
+	padding: 20px 0;
+}
+.flex-center{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 20px;
+}
+
+.flex-center {
+}
+.logo {
+}
+.form-search {
+}
+.search-label {
+}
+.search-input {
+}
+.search-submit {
+}
+.js-choice {
+}
+.title-wrapper {
+}
+
+.title {
+}
+.news {
+}
+.news-list {
+}
+.news-item {
+}
+.news-title {
+}
+.news-link {
+}
+.news-description {
+}
+.news-footer {
+}
+.news-datetime {
+}
+.news-author {
+}
+.footer {
+}
+.footer__container {
+}
+.footer-logo {
+}
+.copyraght {
+}
+.social-list {
+}
+.social-item {
+}
+.social-link {
+}
