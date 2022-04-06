@@ -37,6 +37,19 @@
 	background-color: transparent;
 	transform: translateY(-50%);
 }
+.choices{
+	width: 320px;
+}
+.choices__inner{
+	
+	background: transparent;
+	border: 1px solid #E6E6E6;
+	border-radius:22px;
+	height: 44px;
+}
+.choices__placeholder{
+	opacity: 1;
+}
 
 .title-wrapper {
 	border-top: 1px solid #E6E6E6;

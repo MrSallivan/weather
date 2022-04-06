@@ -1,4 +1,6 @@
-const element = document.querySelector('.js-choice')
-const choices = new Choices(element)
+const choicesElement = document.querySelector('.js-choice')
 
-const choices = new Choices(element)
+const choices = new Choices(choicesElement, {
+	searchEnabled: false,
+	itemSelectText: ''
+})
